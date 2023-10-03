@@ -27,5 +27,10 @@ public class HookTest {
         Assert.assertEquals(hook.getLocation().y, miner.getHook().getLocation().y, 1e-7);
     }
 
+    @Test
+    public void GoldTest(){
+        Gold gold = new Gold(1);
+    }
+
 }
 
