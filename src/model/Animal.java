@@ -59,6 +59,18 @@ public class Animal implements Catchable {
         return 22;
     }
 
+    public void setLocation(Location loc) {
+        this.loc = loc;
+    }
+
+    public int getDirection() {
+        return direction;
+    }
+
+    public void setDirection(int direction) {
+        this.direction = direction;
+    }
+
     public void update() {
         if (isCaught())
             return;

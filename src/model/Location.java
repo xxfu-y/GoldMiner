@@ -17,6 +17,10 @@ public class Location implements Serializable {
         historyLoc.clear();
     }
 
+    public static void setHistoryLoc(ArrayList<Location> historyLoc) {
+        Location.historyLoc = historyLoc;
+    }
+
     public static Location newRandomLocation() {
         Location loc;
         do {
