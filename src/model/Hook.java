@@ -31,6 +31,15 @@ public class Hook implements Serializable {
         return theta;
     }
 
+    // 测试用getter与setter
+    public void setTheta(double theta) {
+        this.theta = theta;
+    }
+
+    public void setLoc(Location loc) {
+        this.loc = loc;
+    }
+
     public Hook(Location loc, Miner m) {
         X = loc.x;
         Y = loc.y;
